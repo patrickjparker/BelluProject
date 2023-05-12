@@ -22,7 +22,7 @@ export default {
     },
     computed: {
         displayClass: function() {
-            return this.disabled ? 'bg-gray-2 cursor-not-allowed' : 'bg-beige cursor-pointer'
+            return this.disabled ? 'bg-white cursor-not-allowed' : 'bg-beige cursor-pointer'
         }
     }
 }
